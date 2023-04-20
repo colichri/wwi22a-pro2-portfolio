@@ -1,0 +1,16 @@
+@startuml
+class "Lieferant 1" {
+  .. Rohstoffe ..
+  -double doubleEiche
+  -double doubleFichte
+  -double doubleBuche
+
+  -int integerEiche
+  -int integerFichte
+  -int integerBuche
+  __
+  pruefeSumme(int eiche, int fichte, int buche)
+}
+class "Lieferant 2"
+class "Lieferant 3"
+@enduml
